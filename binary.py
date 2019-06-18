@@ -1,7 +1,10 @@
-n=input("Enter a value")
+n=input()
+flag=True
 for i in n:
-  if i!='0' or i!='1':
-    print("no")
+  if i!='0' and i!='1':
+    flag=False
     break
-  else:
-    print("yes")
+if flag==False:
+  print("no")
+else:
+  print("yes")
