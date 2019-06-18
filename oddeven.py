@@ -1,5 +1,4 @@
-n=int(input("Enter a number"))
-m=int(input("Enter a number"))
+n,m=map(int,input().split())
 sum=n+m
 if sum%2==0:
   print("even")
