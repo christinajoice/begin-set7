@@ -1,1 +1,3 @@
-print("happy day")
+#christinajoice
+str1=input()
+print(str1)
