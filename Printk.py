@@ -1,3 +1,3 @@
-str=input("Enter a string")
-k=int(input("Enter no. of characters to be printed"))
+str,x=input().split()
+k=int(x)
 print(str[:k])
