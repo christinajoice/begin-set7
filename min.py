@@ -1,6 +1,4 @@
-print("Enter 10 values")
-k=int(input())
-for i in range(1,10):
-  n=int(input())
-  k=min(n,k)
-print(k)
+#christinajoice
+k=list(map(int,input().split()))
+m=min(k)
+print(m)
